@@ -7,8 +7,20 @@ body {
 header, footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    background-image: url(images/boot.GIF);
+    background-size: cover;
 }
 
 h1 {
@@ -46,9 +58,14 @@ nav a:hover {
     border-radius: 5px;
 }
 
+p {
+    color:#ffffff;
+    font-size: large;
+}
+
 .container {
     max-width: 1200px;
-    margin: 20px auto;
+    margin:  auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
